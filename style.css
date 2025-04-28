@@ -1,0 +1,41 @@
+:root {
+    --corBranco: hsl(0, 0%, 100%);
+    --cor02: hsl(212, 45%, 89%);
+    --cor03: hsl(216, 15%, 48%);
+    --cor04: hsl(218, 44%, 22%);
+}
+
+
+body {
+    margin-top: 200px;
+    background-color: var(--cor02);
+}
+
+.content {
+    
+    background-color: var(--corBranco);
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+
+.qrcode {
+    
+    max-width: 350px;
+    border-radius: 10px;
+}
+
+.titulo {
+    font-family: "Outfit", sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.subtitulo {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
